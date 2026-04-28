@@ -1,0 +1,24 @@
+cat <<EOF > .gitignore
+# Entornos virtuales (los nombres más comunes)
+venv/
+.venv/
+env/
+.env/
+bin/
+lib/
+include/
+share/
+Scripts/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter y otros
+.ipynb_checkpoints/
+.vscode/
+.idea/
+EOF
