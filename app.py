@@ -8,7 +8,7 @@ import os
 st.set_page_config(page_title="Clasificador de imagenes inteligente", page_icon="")
 
 st.title("Proyecto de Deep Learning / Jaime Claure")
-st.write("Predicción de Imagenes con redes convolucionales (CNN) y por el metodo de Aprendizaje por Transferencia (ResNet50). Sube una imagen de un lugar de interés y nuestro modelo de Deep Learning identificará de qué lugar se trata.")
+st.write("Clasificación de imágenes con redes convolucionales (CNN) mediante aprendizaje por transferencia. Usamos una ResNet-50 preentrenada como modelo base y ajustamos sus capas para identificar el lugar de interés a partir de la imagen que subes para identificar, por eso te pido que subas una imagen del lugar de interés y el nivel de precision del modelo de Deep Learning identificará de qué lugar se trata.")
 
 # Seleccionar el modelo a utilizar
 st.sidebar.title("Configuración")
